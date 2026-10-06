@@ -42,3 +42,6 @@ desktop.ini
 dist/
 build/
 *.egg-info/
+
+# ── Streamlit secrets (keep config.toml, exclude secrets) ────
+.streamlit/secrets.toml
