@@ -464,18 +464,3 @@ python execute_all_notebooks.py
 - **GPU Acceleration:** Fully compatible with CUDA-enabled GPUs via standard TensorFlow 2.16+; batch sizes can be increased to 256 for faster epoch throughput.
 
 ---
-
-## 📜 License & Citation
-
-This project is released under the **MIT License**.
-
-If you use this project or dataset in your coursework or research, please cite:
-```bibtex
-@misc{jena_climate_attention,
-  author = {Kumar, Dhruv},
-  title = {Multivariate Weather Forecasting with Attention},
-  year = {2026},
-  publisher = {GitHub},
-  howpublished = {\url{https://github.com/dhruvkumar0005/Multivariate-Weather-Forecasting-with-Attention}}
-}
-```
