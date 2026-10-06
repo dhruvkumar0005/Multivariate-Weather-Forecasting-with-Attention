@@ -1,0 +1,7 @@
+Experiment,Category,Window_Length,GRU_Layers,Scoring_Function,Trainable_Params,Epochs_Trained,Best_Val_Loss_Scaled,Val_RMSE_Temp_degC,Val_RMSE_Pres_mbar,Val_RMSE_Humid_pct,Val_RMSE_Wind_ms,Val_Mean_RMSE,Test_Mean_RMSE,Training_Time_s
+GRU_Window_24h,Window Length,24,"(64, 32)",None (Pure GRU),24804,8,0.0634,0.888,0.6361,3.2569,0.6458,1.3567,1.2836,79.1
+GRU_Window_48h,Window Length,48,"(64, 32)",None (Pure GRU),24804,8,0.0629,0.9097,0.6108,3.2611,0.6422,1.356,1.2796,150.1
+GRU_Window_72h_2L,Window Length,72,"(64, 32)",None (Pure GRU),24804,8,0.0638,0.8425,0.7299,3.2388,0.6476,1.3647,1.3143,206.0
+GRU_Window_72h_3L,Recurrent Depth,72,"(64, 32, 16)",None (Pure GRU),26692,8,0.0685,1.0631,0.7829,3.3699,0.6616,1.4694,1.4017,310.2
+GRU_Attention_Additive,Attention Scoring,72,"(64, 32)",additive,25892,8,0.0708,1.1208,0.9405,3.5813,0.6587,1.5753,1.4903,314.0
+GRU_Attention_DotProduct,Attention Scoring,72,"(64, 32)",dot_product,24836,8,0.2006,2.7552,2.0801,7.7815,0.9341,3.3877,3.3576,397.6

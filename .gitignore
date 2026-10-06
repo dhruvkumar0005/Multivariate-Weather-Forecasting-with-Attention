@@ -1,0 +1,44 @@
+# =============================================================
+# Multivariate Weather Forecasting with Attention — .gitignore
+# =============================================================
+
+# ── Virtual environments ─────────────────────────────────────
+.venv/
+env/
+venv/
+ENV/
+
+# ── Python cache / compiled files ────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ── Jupyter checkpoints ──────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Raw dataset (41 MB — too large for GitHub) ───────────────
+# The cleaned hourly CSV (16 MB) IS tracked.
+Dataset/jena_climate_2009_2016.csv
+
+# ── IDE / editor settings ────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── OS generated ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ── Logs & temp files ────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+
+# ── Python build artifacts ───────────────────────────────────
+dist/
+build/
+*.egg-info/

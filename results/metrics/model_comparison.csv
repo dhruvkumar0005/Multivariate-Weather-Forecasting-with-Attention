@@ -1,0 +1,13 @@
+Model,Target Variable,Unit,Val_RMSE,Test_MAE,Test_RMSE,Test_R2_Score
+Baseline_LSTM,T (degC),°C,0.6881,0.4903,0.6519,0.993
+Baseline_LSTM,p (mbar),mbar,0.5064,0.3913,0.514,0.9966
+Baseline_LSTM,rh (%),%,3.0553,1.9899,2.8591,0.9658
+Baseline_LSTM,wv (m/s),m/s,0.6371,0.4503,0.6349,0.8264
+Stacked_GRU,T (degC),°C,0.7152,0.4994,0.6617,0.9928
+Stacked_GRU,p (mbar),mbar,0.6398,0.4869,0.6523,0.9946
+Stacked_GRU,rh (%),%,3.0898,2.0242,2.8886,0.9651
+Stacked_GRU,wv (m/s),m/s,0.6406,0.4557,0.6387,0.8243
+GRU_with_Attention,T (degC),°C,0.6975,0.486,0.6536,0.993
+GRU_with_Attention,p (mbar),mbar,0.4782,0.3385,0.4531,0.9974
+GRU_with_Attention,rh (%),%,3.0878,2.0025,2.8852,0.9652
+GRU_with_Attention,wv (m/s),m/s,0.6415,0.4518,0.6399,0.8236
